@@ -139,12 +139,16 @@
 
 
 /* (κ) Συμπεριφορά των επαφών */
-
-.contact::before{
-	content:'@';
-	color:orange;	
-}
-
 .contact{
 	color:orange;	
 }
+
+
+.contact::before{
+	content:'@';
+}
+
+.event_item:hover .contact{
+	color:var(--dark_text);
+}
+
