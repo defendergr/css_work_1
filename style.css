@@ -95,6 +95,9 @@
 
 .event_item:hover{
 	cursor:pointer;
+	color:white;
+	box-shadow: 0px 0px 35px -10px rgba(0, 0, 0, 75);
+	background-image:linear-gradient(to bottom right, var(--active_color_dark), var(--active_color_light));
 }
 
 .event_item_dot{
@@ -109,11 +112,15 @@
 }
 
 .event_item_title{
-	
+	color:var(--dark_text);
+	margin-left:1rem;
+	vertical-align:center;
+	display:inline-block;
 }
 
 .event_item_body{
-	
+	font-size:1.2rem;
+	margin-left:2.2em;
 }
 /* (ι) Συμπεριφορά του event_item όταν το ποντίκι υπερίπταται του στοιχείου */
 
