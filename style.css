@@ -131,7 +131,20 @@
 .event_item:hover .event_item_dot{
 	background-color:white;
 }
+
+.event_item:hover .dot_active{
+	background-color:var(--active_color_light);
+}
 /* (ι) Συμπεριφορά του event_item όταν το ποντίκι υπερίπταται του στοιχείου */
 
 
 /* (κ) Συμπεριφορά των επαφών */
+
+.contact::before{
+	content:'@';
+	color:orange;	
+}
+
+.contact{
+	color:orange;	
+}
