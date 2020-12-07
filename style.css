@@ -106,6 +106,7 @@
 	height:1.5rem;
 	border-radius:50%;
 	display:inline-block;
+	vertical-align:top;
 }
 .dot_active{
 	background-color:var(--active_color_dark);
@@ -125,6 +126,10 @@
 
 .event_item:hover .event_item_title{
 	color:white;
+}
+
+.event_item:hover .event_item_dot{
+	background-color:white;
 }
 /* (ι) Συμπεριφορά του event_item όταν το ποντίκι υπερίπταται του στοιχείου */
 
