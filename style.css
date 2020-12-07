@@ -122,6 +122,10 @@
 	font-size:1.2rem;
 	margin-left:2.2em;
 }
+
+.event_item:hover .event_item_title{
+	color:white;
+}
 /* (ι) Συμπεριφορά του event_item όταν το ποντίκι υπερίπταται του στοιχείου */
 
 
