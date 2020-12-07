@@ -93,9 +93,29 @@
 	margin-top:1.8rem;
 }
 
-/* (ι) Συμπεριφορά του event_item όταν το ποντίκι υπερίπταται του στοιχείου 
-.event_item::hover:{
+.event_item:hover{
+	cursor:pointer;
+}
+
+.event_item_dot{
+	background-color:var(--light_text);
+	width:1.5rem;
+	height:1.5rem;
+	border-radius:50%;
+	display:inline-block;
+}
+.dot_active{
+	background-color:var(--active_color_dark);
+}
+
+.event_item_title{
 	
 }
-*/
+
+.event_item_body{
+	
+}
+/* (ι) Συμπεριφορά του event_item όταν το ποντίκι υπερίπταται του στοιχείου */
+
+
 /* (κ) Συμπεριφορά των επαφών */
